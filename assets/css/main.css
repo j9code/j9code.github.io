@@ -2605,7 +2605,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 3em 3.5em; /* The code for the avatar padding */
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2632,7 +2632,7 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h2, #header h3, #header h4, #header h5 {
 			color: #ffffff;
 		}
 
@@ -2640,6 +2640,13 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
+			margin: 0;
+		}
+/*The code for the side bar text*/
+		#header h6 {
+			color: rgba(255, 255, 255, 0.7);
+			font-size: 0.9em;
+			line-height: 1.5em;
 			margin: 0;
 		}
 
