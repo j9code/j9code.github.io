@@ -2376,6 +2376,7 @@ input, select, textarea {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
+		font-size: 0.2em; /* Set the font size of the table */
 	}
 
 		table tbody tr {
@@ -2394,7 +2395,7 @@ input, select, textarea {
 
 		table th {
 			color: #787878;
-			font-size: 0.9em;
+			font-size: 0.2em; /* Set the font size of the table */
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
@@ -2640,7 +2641,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
-			margin: 0;
+			margin: 0 0 0.5em 0;
 		}
 /*The code for the side bar text*/
 		#header h6 {
