@@ -2060,7 +2060,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.0; /*this is the opacity for the image gallery. Changed from 0.5*/
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2095,12 +2095,12 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:after {
-				opacity: 1.0;
+				opacity: 0;
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
-				opacity: 1.0;
+				/*background: url("images/overlay.png"), url("images/overlay.png");*/
+				opacity: 0;
 			}
 
 		.image img {
@@ -2974,7 +2974,7 @@ input, select, textarea {
 /* Touch */
 
 	body.is-touch .image.thumb:before {
-		opacity: 0.5 !important;
+		opacity: 0.0 !important;
 	}
 
 	body.is-touch .image.thumb:after {
