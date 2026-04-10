@@ -243,7 +243,58 @@ input, select, textarea {
 		text-align: right;
 	}
 
-/* Container */
+/* Home Page Thumbnails */
+
+a.thumb {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f4f4f4;
+    margin: 0 auto;
+}
+
+a.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;           /* default */
+    object-position: top center;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Only for problem images */
+a.thumb img.cover-thumb {
+    object-fit: cover !important;
+    object-position: center;
+}
+
+a.thumb:hover img {
+    transform: scale(1.03);
+}
+
+#two .col-5 {
+    text-align: center;
+}
+
+#two .col-5 h5 {
+    margin: 0 0 0.1em 0 !important;
+    line-height: 1.2;
+    min-height: 2.4em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#two .row > .col-5 {
+    margin-bottom: 2em;
+}
+
+	/* Container */
 
 	.container {
 		margin: 0 auto;
@@ -370,7 +421,7 @@ input, select, textarea {
 		}
 
 		.row > .col-5 {
-			width: 41.66667%;
+			width: 41.66667%;			
 		}
 
 		.row > .off-5 {
