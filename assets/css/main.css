@@ -294,6 +294,14 @@ a.thumb:hover img {
     margin-bottom: 2em;
 }
 
+/* Media Screen for Thumbnails */
+
+@media screen and (max-width: 736px) {
+	.row > .col-5 {
+		width: 100%;
+	}
+}
+
 	/* Container */
 
 	.container {
